@@ -1,0 +1,77 @@
+<!-- TO DO LIST:
+-Apply all formatting to all pages
+-Come up with website name
+-Make website compatible with different kinds of displays
+-Add content to website 
+-Organize code better -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Website</title>
+    <link rel="stylesheet" href="./page1Style.css">
+</head>
+<body>
+  <img src="mosque.png" id="mosque">
+  <img id="pattern" src="pattern.png">
+  <img id="pattern2" src="pattern.png">
+  <img id="pattern3" src="pattern.png">
+
+    <div id="container">
+        <form action="learnMorePage.html" id="newPageForm">
+            <input type="submit" value="Learn more" id="button">
+        </form>
+        <h id="introTitle" class="generalText">Welcome to [name]</h>
+        <div id="introChip">
+        <p id="paragraph"> Islam is the world's second largest and fastest growing religion at a following of about 1.7 billion people. It's core concept is belief in one God. If you wish to convert to Islam or are interested in Islam in general, this website will teach you the basics of the Islamic faith, including information about our Prophet Muhammad—may peace and blessings be upon him—the obligations of a Muslim, our view of God, and Islamic tradition.</p>
+        </div>
+        <footer>
+            <p class="footerText">Author: Jarif Raj</p>
+            <p class="footerText">This website was created to build a portfolio for application to the Student Union IT department at Stuyvesant. The other websites in this portfolio can be found <a href="https://www.google.com" id="portfolioLink">here.</a></p>
+        </footer>
+    </div>
+   
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <div class="subnav">
+          <button class="subnavbtn">Core beliefs <i class="fa fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a href="#company">Allah</a>
+            <a href="#team">The Quran</a>
+            <a href="#careers">The hereafter</a>
+          </div>
+        </div>
+        <div class="subnav">
+          <button class="subnavbtn">Prophets <i class="fa fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a href="#bring">Muhammad (saws)</a>
+            <a href="#deliver">Ibrahim (as)</a>
+            <a href="#package">Isa (as)</a>
+            <a href="#express">Adam (as)</a>
+            <a href="#express">See more</a>
+          </div>
+        </div>
+        <div class="subnav">
+          <button class="subnavbtn">History <i class="fa fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a href="#link1">The Caliphates</a>
+            <a href="#link2">Islamic sects</a>
+            <a href="#link3">The Sahaba</a>
+            <a href="#link4">Hadith</a>
+          </div>
+        </div>
+        <div class="subnav">
+          <button class="subnavbtn">Other <i class="fa fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a href="#link1">Salah</a>
+            <a href="#link2">Islamic diet</a>
+            <a href="#link3">Modesty</a>
+            <a href="#link3">5 Pillars</a>
+          </div>
+        </div>
+      </div>    
+      <script src = "page1Script.js"></script>
+</body>
+</html>
